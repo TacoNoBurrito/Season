@@ -1,0 +1,14 @@
+{
+    "Port": 8000,
+    "MultiPort": false,
+    "Ports": [
+        8000,
+        8001,
+        8002
+    ],
+    "Verification": false,
+    "VerificationInfo": {
+        "Username": "placeholder",
+        "Password": "placeholder"
+    }
+}

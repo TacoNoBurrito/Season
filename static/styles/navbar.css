@@ -1,0 +1,32 @@
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(128,128,120, 50);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.navbar img {
+    float: left;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar ul > li > a {
+    font-family: "Muli", sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+    color: black;
+    cursor: pointer;
+}
