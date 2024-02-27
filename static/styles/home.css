@@ -21,6 +21,7 @@ input {
     font-size: 15px;
     margin-top: 20px;
     background-color: rgba(128,128,120, 50);
+    border-radius: 10px;
 }
 
 input::placeholder, input:focus, input {

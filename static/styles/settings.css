@@ -1,0 +1,36 @@
+body > p {
+    text-align: center;
+}
+
+.settings-box {
+    display: inline-block;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 300px;
+    margin-right: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+}
+
+.settings-box h1 {
+    color: white;
+    margin: 0 0;
+}
+
+.settings-wrapper {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.settings-box p {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.settings-box select, input {
+    margin-bottom: 10px;
+    text-align: center;
+}

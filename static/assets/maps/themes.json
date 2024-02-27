@@ -1,6 +1,10 @@
 {
-    "Normal": {
+    "Dark": {
         "background": "black",
         "text": "white"
+    },
+    "Light": {
+        "background": "white",
+        "text": "black"
     }
 }

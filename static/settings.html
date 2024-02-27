@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles/muli.css"/>
+    <link rel="stylesheet" href="styles/settings.css"/>
+    <link rel="stylesheet" href="styles/navbar.css"/>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <a href="home.html"><img src="assets/images/logo.png" style="width: 50px; height: 50px;"></img></a>
+            <li><a href="settings.html">Settings</a></li>
+            <li><a href="games.html">Games</a></li>
+        </ul>
+    </div>
+
+    <p><em>Any changes will take place AFTER leaving the settings page.</em></p>
+
+    <div class="settings-wrapper">
+        <div class="settings-box">
+            <h1>Appearance</h1>
+            <p>Theme</p>
+            <select id="theme">
+                <option>Dark</option>
+                <option>Light</option>
+            </select>
+            <p>Title</p>
+            <input id="title" placeholder="Set title here"/>
+            <p>Icon</p>
+            <input id="icon" placeholder="Set icon here"/>
+        </div>
+        <div class="settings-box">
+            <h1>Miscellaneous</h1>
+            <p>wip</p>
+        </div>
+    </div>
+
+
+    <script src="scripts/fetch.js"></script>
+    <script src="scripts/settings.js"></script>
+    <script src="scripts/theme.js"></script>
+</body>

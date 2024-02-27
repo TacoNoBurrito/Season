@@ -12,6 +12,11 @@ const app = express();
 app.use(express.static(path.join(__dirname, "static")));
 app.use("/uv/", express.static(uvPath));
 
+// Delete this after rewrites are set up.
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "static", "home.html"));
+});
+
 server.on("request", (req, res) => {
     if (bare.shouldRoute(req)) {
         bare.routeRequest(req, res);

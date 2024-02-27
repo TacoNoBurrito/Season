@@ -10,7 +10,6 @@ readTextFile("assets/maps/themes.json", (text) => {
 });
 
 const cloak = JSON.parse(localStorage.getItem("cloakData"));
-console.log(cloak)
 document.title = cloak.title;
 const link = document.createElement("link");
 link.rel = "icon";
