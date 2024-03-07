@@ -1,5 +1,10 @@
+body {
+    background-color: black;
+}
+
 body > p {
     text-align: center;
+    color: white;
 }
 
 .settings-box {
@@ -28,6 +33,7 @@ body > p {
 .settings-box p {
     margin: 0 0;
     padding: 0 0;
+    color: white;
 }
 
 .settings-box select, input {

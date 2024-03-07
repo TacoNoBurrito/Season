@@ -1,5 +1,4 @@
-if (localStorage.getItem("theme") == null) {
-    localStorage.setItem("theme", "Dark");
+if (localStorage.getItem("cloakData") == null) {
     localStorage.setItem("cloakData", JSON.stringify({
         title: "Season",
         icon: "assets/images/logo.png"
